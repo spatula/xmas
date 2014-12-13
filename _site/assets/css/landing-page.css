@@ -1,0 +1,79 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Avenir","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+body {
+    font-family: "Avenir","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-outer {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  max-height: 90%;
+  min-height: 300px;
+}
+
+.intro-header {
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/intro-bg.jpg) no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.amp {
+  font-family: "Hoefler Text", Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
+  font-style: italic;
+}
+
+.address {
+  text-transform: uppercase;
+  font-size: 90%;
+}
+
+
+@media(max-width:767px) {
+  .intro-header {
+    height: 400px;
+    width: 900px;
+  }
+}
+
+
+footer {
+    padding: 50px 0;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
